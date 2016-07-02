@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.yes.tictactoe.MainActivity" 
+    android:background="@drawable/splash">
+
+    <TextView
+        android:id="@+id/game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFCC"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:layout_gravity="bottom"
+        android:text="powered by Surabhi Bagrecha" />
+
+</LinearLayout>
